@@ -1,0 +1,321 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.land {
+  margin-bottom: 7%;
+}
+
+#lt {
+  position: absolute;
+  width: 30%;
+  top: 15%;
+  margin: 2%;
+}
+#br {
+  width: 30%;
+  position: relative;
+  right: 3%;
+  float: right;
+  margin-top: -25%;
+}
+
+.head {
+  position: relative;
+  font-size: 4vw;
+  margin-top: 17%;
+}
+
+.head_button {
+  position: relative;
+  margin: 10%;
+  max-width: 25vw;
+  border-radius: 5vw;
+  padding: 2vw;
+  border: solid black;
+  border-width: thin;
+  cursor:pointer;
+}
+
+.head_button:hover{
+  border: solid #beb9b1;
+  color:white;
+  background-color:#beb9b1;
+  font-weight: bold;
+}
+
+.head_button p {
+  font-size: 2vw;
+}
+.break {
+  position: relative;
+  overflow-y: hidden;
+  left: -10%;
+  width: 110%;
+  top: 100%;
+  background-color: #9b9bc1;
+  box-shadow: 4px 2px 4px grey;
+  font-size: 0.85vw;
+}
+
+.newsletter {
+  width: 60%;
+  margin: 15%;
+}
+
+.newsletter p {
+  font-size: 5vw;
+}
+
+.email {
+  position: relative;
+  margin-top: 10%;
+  width: 100%;
+}
+
+.email input {
+  width: 100%;
+  height: 3rem;
+  border-radius: 5vw;
+  padding: 1rem;
+  font-size: 1em;
+  border: solid #beb9b1;
+  border-width: thin;
+}
+
+
+.email button {
+  position: relative;
+  margin-top: 5rem;
+  width: 100%;
+  background-color: #beb9b1;
+  border-radius: 5vw;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor:pointer;
+}
+.email button:hover{
+  background-color: white;
+  border:solid black 1px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  padding-bottom: 5%;
+  border-bottom: solid black;
+  border-width: thin;
+}
+.blogpic {
+  margin: 2%;
+  align-items: center;
+}
+
+.blogpic img {
+  width: 80%;
+}
+
+.blgcontent {
+  margin: 1%;
+  flex-grow: 1;
+  width: 30%;
+  font-size: 3vw;
+}
+
+.blgtitle {
+  color: #9b9bc1;
+  font-size: 1.5em;
+}
+
+.blgintro {
+  font-size: 0.5em;
+  margin: 2%;
+  overflow-wrap: normal;
+}
+
+#blgbutton {
+  display: relative;
+  font-size: 0.65em;
+  background-color: #beb9b1;
+  margin-top: 24%;
+  padding: 1vw;
+  border: none;
+  width: 18vw;
+}
+
+.ads {
+  align-content: center;
+  width: 100%;
+  height: 40vh;
+  padding-bottom: 5%;
+  border-bottom: solid black;
+  border-width: thin;
+}
+
+.footer {
+  height:20vh;
+  width: 100%;
+  background-color: #6b6b6b;
+}
+.heads {
+  display: flex;
+}
+
+.heads p {
+  font-size: 1.5vw;
+  margin: 2%;
+}
+
+@media screen and (max-width: 1146px) {
+  #lt {
+    position: relative;
+    width: 35vw;
+    top: 15%;
+    margin: 2%;
+  }
+  #br {
+    width: 35vw;
+    position: relative;
+    right: 3%;
+    float: right;
+    margin-top: -25%;
+  }
+  
+  .head {
+    position: relative;
+    font-size: 4vw;
+    margin-top: -15%;
+  }
+  
+  .head_button {
+    position: relative;
+    margin: 10%;
+    max-width: 25vw;
+    border-radius: 5vw;
+    padding: 2vw;
+    border: solid black;
+    border-width: thin;
+    cursor:pointer;
+    font-size: 2em;
+  }
+  
+  .head_button:hover{
+    border: solid #beb9b1;
+    color:white;
+    background-color:#beb9b1;
+    font-weight: bold;
+  }
+
+  .blgcontent {
+    margin: 11%;
+    width: 30%;
+    font-size: 3vw;
+  }
+
+  .blgtitle {
+    color: #9b9bc1;
+    font-size: 2em;
+    margin-left: 25%;
+  }
+
+  .blgintro {
+    font-size: 1em;
+    margin-left: 8%;
+    overflow-wrap: normal;
+  }
+
+  #blgbutton {
+    display: relative;
+    margin-left: 35%;
+    font-size: 1em;
+    background-color: #beb9b1;
+    margin-top: 26%;
+    padding: 1vw;
+    border: none;
+    width: 20vw;
+  }
+
+  .blogpic {
+    margin: 2%;
+    align-items: center;
+    width: 100%;
+  }
+
+  .blogpic img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 547px){
+  #lt {
+    position: relative;
+    width: 60%;
+    top: 15%;
+    margin: 2%;
+  }
+  #br {
+    width: 60%;
+    position: relative;
+    right: 3%;
+    float: right;
+    margin-top: -18%;
+  }
+  
+  .head {
+    position: relative;
+    font-size: 6vw;
+    margin-top: -8%;
+  }
+  
+  .head_button {
+    position: relative;
+    margin: 10%;
+    max-width: 25vw;
+    border-radius: 5vw;
+    padding: 2vw;
+    border: solid black;
+    border-width: thin;
+    cursor:pointer;
+    font-size: 2em;
+  }
+  
+  .head_button:hover {
+    border: solid #beb9b1;
+    background-color:#beb9b1;
+    color:white;
+    font-weight: bold;
+  }
+
+  .email input {
+    width: 100%;
+    height: 4vh;
+    border-radius: 5vw;
+    padding: 1vh;
+    font-size: 15px;
+    border: solid #beb9b1;
+    border-width: thin;
+  }
+  
+  
+  .email button {
+    position: relative;
+    margin-top: 4vh;
+    width: 100%;
+    background-color: #beb9b1;
+    border-radius: 5vw;
+    border: none;
+    padding: 1vh;
+    font-size: 12px;
+    cursor:pointer;
+  }
+  .email button:hover{
+    background-color: white;
+    border:solid black 1px;
+  }
+
+}

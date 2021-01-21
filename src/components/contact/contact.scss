@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.contactus {
+  width: 80%;
+  margin: 3%;
+  font-size: 8vh;
+  font-weight: lighter;
+}
+
+.underline {
+  background-color: #9b9bc1;
+  font-size: 0.15vw;
+  margin-top: 4%;
+  width: 10%;
+}
+.input {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.ipl {
+  width: 40%;
+  min-width: 40vh;
+  margin: 4%;
+  height: 10vh;
+  padding: 2vh;
+  font-size: 4vh;
+  border: solid #b4b3b3;
+  border-radius: 10px;
+  border-width: thin;
+}
+
+.input_2 {
+  width: 100%;
+}
+.iip {
+  width: 90%;
+  margin: 0%;
+  height: 10vh;
+  min-width: 40vh;
+  padding: 2vh;
+  font-size: 4vh;
+  border: solid #b4b3b3;
+  border-radius: 10px;
+  border-width: thin;
+}
+
+@font-face {
+  font-family: 'Malerblock';
+  src: local('Malerblock'),
+    url(../fonts/Malerblock-Medium.ttf) format('truetype');
+}
+
+.message {
+  width: 90%;
+  margin-top: 5%;
+  height: 30vh;
+  padding: 2vh;
+  font-size: 4vh;
+  min-width: 40vh;
+  font-family: 'Malerblock';
+  font-weight: 100;
+  border: solid #b4b3b3;
+  border-width: thin;
+  word-break: break-word;
+  border-radius: 10px;
+}
+
+.Submit {
+  width: 60%;
+  height: 3rem;
+  margin-top: 7%;
+  font-weight: lighter;
+  font-size: 3vh;
+  background-color: #beb9b1;
+  border: none;
+  border-width: thin;
+}
+
+@media screen and (max-width:835px){
+  .ipl {
+    font-size: 15px;
+    min-width: 200px;
+  }
+  .iip{
+    font-size: 15px;
+    min-width: 200px;
+  }
+  .message{
+    font-size: 15px;
+    min-width: 200px;
+  }
+
+}
